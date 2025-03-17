@@ -14,7 +14,7 @@
 - H2 Database
 
 ## Установка и запуск
-1. Склонируйте репозиторий: 
+1. Склонируйте репозиторий: https://github.com/Tonkorg/Nexign_test.git
 2. Перейдите в папку: `cd cdr-service`
 3. Соберите проект: `mvn clean install`
 4. Запустите: `java -jar target/cdr-service-0.0.1-SNAPSHOT.jar`
@@ -25,5 +25,16 @@
 - `GET /api/udr/all` — UDR для всех абонентов.
 - `POST /api/cdr/report` — Генерация CDR отчета.
 
+Так же для просмотра эндпоинтов можно воспользоваться Swagger - ом
+http://localhost:8080/swagger-ui/index.html#/
+
 ## Тестирование
 - `mvn test` — Запуск юнит-тестов.
+
+## База данных
+Для удобного  взаимодействия с бд, вы можете перейти в интерфейс H2 - http://localhost:8080/h2-console/
+
+Driver Class: org.h2.Driver
+JDBC URL: jdbc:h2:mem:testdb 
+User Name: sa
+Password: 
