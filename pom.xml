@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.nexign.test</groupId>
 	<artifactId>cdr-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>cdr-service</name>
 	<description>Test for Nexign Company</description>
 	<url/>
